@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "id": "br.edu.ifsc.cortea",
+  "version": "1.0.0",
+  "runtime": {
+    "entrypoint": "cortea.py",
+    "view_factory": null,
+    "menu_actions": {},
+    "min_platform_version": null,
+    "python": null,
+    "dependencies": [],
+    "required_peripherals": [
+      "webcam",
+      "projector"
+    ],
+    "permissions": [
+      "camera"
+    ]
+  },
+  "store": {
+    "type": "game",
+    "is_free": true,
+    "license": null,
+    "required_age": 0,
+    "website": "https://udescmove2learn.wordpress.com/",
+    "support_info": {
+      "url": null,
+      "email": null
+    },
+    "release_date": {
+      "coming_soon": false,
+      "date": "2026"
+    },
+    "developers": [
+      {
+        "name": "Ighor Henrique Lima Barbosa",
+        "email": null,
+        "website": null
+      },
+      {
+        "name": "Leonardo Rodrigues Martins",
+        "email": null,
+        "website": null
+      }
+    ],
+    "publishers": [
+      {
+        "name": "IFSC - Jaraguá do Sul",
+        "email": null,
+        "website": null
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "linux": true,
+      "mac": true
+    },
+    "genres": [
+      "racing",
+      "educational",
+      "casual"
+    ],
+    "categories": [
+      "single_player"
+    ],
+    "tags": [
+      "accessibility",
+      "sensory_processing"
+    ],
+    "controller_support": "full",
+    "audience": {
+      "min_age": null,
+      "max_age": null,
+      "conditions": [
+        "tea"
+      ],
+      "skills": [
+        "sensory_processing",
+        "focus",
+        "coordination",
+        "memorization"
+      ]
+    },
+    "accessibility": [],
+    "privacy": {
+      "camera": true,
+      "stores_video": null,
+      "data_collected": [],
+      "data_leaves_device": null,
+      "policy_url": null
+    },
+    "requirements": {
+      "windows": {
+        "minimum": {
+          "os": "Windows 10 64-bit",
+          "cpu": "Intel Core i3",
+          "gpu": "Intel HD Graphics 4000",
+          "ram_mb": 4096,
+          "storage_mb": 500
+        },
+        "recommended": {
+          "os": "Windows 10/11 64-bit",
+          "cpu": "Intel Core i5",
+          "gpu": "NVIDIA GeForce GTX 1050",
+          "ram_mb": 8192,
+          "storage_mb": 1024
+        }
+      }
+    },
+    "tech": {
+      "engine": "pygame",
+      "language": "python"
+    },
+    "assets": {
+      "icon": "cortea.ico",
+      "logo": null,
+      "header": null,
+      "background": null,
+      "screenshots": [],
+      "videos": []
+    },
+    "references": [],
+    "changelog_url": null,
+    "localization": {
+      "default": "en_US",
+      "supported": [
+        "en_US",
+        "es_ES",
+        "pt_BR"
+      ],
+      "en_US": {
+        "name": "CorTEA: Color Path Game",
+        "short_description": "A game to aid in the development of sensory processing.",
+        "about_the_game": "Developed to help children and individuals with sensory processing challenges through engaging gameplay. Built with Python and Pygame for cross-platform accessibility.",
+        "detailed_description": "CorTEA is an educational color path game designed to support the development of sensory processing skills. Players travel along an accessible path of colors while improving focus, coordination, memorization, and sensory integration in a supportive environment.",
+        "content_notes": "Educational game focused on the development of sensory processing. Suitable for all ages, including children with special needs.",
+        "requirements_notes": "Requires a webcam and a projector for sensory interaction."
+      },
+      "es_ES": {
+        "name": "CorTEA: Juego de Camino de Colores",
+        "short_description": "Un juego para ayudar en el desarrollo del procesamiento sensorial.",
+        "about_the_game": "Desarrollado para ayudar a niños y personas con desafíos en el procesamiento sensorial a través de una jugabilidad atractiva. Construido con Python y Pygame para accesibilidad multiplataforma.",
+        "detailed_description": "CorTEA es un juego de camino de colores educativo diseñado para apoyar el desarrollo de habilidades de procesamiento sensorial. Los jugadores recorren un camino de colores accesible, mientras mejoran la concentración, la coordinación, la memorización y la integración sensorial en un entorno de apoyo.",
+        "content_notes": "Juego educativo centrado en el desarrollo del procesamiento sensorial. Apto para todas las edades, incluidos niños con necesidades especiales.",
+        "requirements_notes": "Requiere una cámara web y un proyector para la interacción sensorial."
+      },
+      "pt_BR": {
+        "name": "CorTEA: Jogo de Caminho de Cores",
+        "short_description": "Um jogo para auxiliar no desenvolvimento do processamento sensorial.",
+        "about_the_game": "Desenvolvido para ajudar crianças e pessoas com desafios no processamento sensorial por meio de uma jogabilidade envolvente. Construído com Python e Pygame para acessibilidade multiplataforma.",
+        "detailed_description": "CorTEA é um jogo de caminho de cores educacional projetado para apoiar o desenvolvimento de habilidades de processamento sensorial. Os jogadores percorrem um caminho de cores acessível, melhorando o foco, a coordenação, a memorização e a integração sensorial em um ambiente acolhedor.",
+        "content_notes": "Jogo educacional focado no desenvolvimento do processamento sensorial. Indicado para todas as idades, incluindo crianças com necessidades especiais.",
+        "requirements_notes": "Requer uma webcam e um projetor para a interação sensorial."
+      }
+    }
+  },
+  "game": "CorTEA",
+  "exec": "cortea.py",
+  "icon": "cortea.ico",
+  "language": {
+    "en_US": {
+      "name": "CorTEA: Color Path Game",
+      "description": "A game to aid in the development of sensory processing."
+    },
+    "es_ES": {
+      "name": "CorTEA: Juego de Camino de Colores",
+      "description": "Un juego para ayudar en el desarrollo del procesamiento sensorial."
+    },
+    "pt_BR": {
+      "name": "CorTEA: Jogo de Caminho de Cores",
+      "description": "Um jogo para auxiliar no desenvolvimento do processamento sensorial."
+    }
+  }
+}
